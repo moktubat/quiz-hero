@@ -7,13 +7,80 @@
     <!-- Bootstrap CSS Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
-  <body>
-
-
-
-
-
-
+  <body class="bg-success-subtle">
+    
+    <section class="container mt-5 ">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <p>01. <code>.map(), .filter(), .forEach() </code> and <code>  .find()</code></p>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>.map()</strong> executes an array element and returns a new array with update. <br>
+                  <strong>.filter()</strong> checks every element in an array and complete a specified conditon and return a new array of elements.
+                    <br>
+                  <strong>.forEach()</strong> forEach is one kind of for loop. It is use for every elements of an array but not change the array and return undefined. <br>
+                  <strong>.find()</strong> with .find() method we find any one element of an array with a specific conditon. if can't find any element it return undefined.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <p>02. Local Storage, Session Storage and Cookies</p>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Local Storage</strong> use for store data and user can access when it need. it also work in offline. <br>
+                  <strong>Session Storage</strong> used for improve performance of web application. <br>
+                  <strong>Cookies</strong> is good for store data. it take browser cache and helpfull for browsing. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <p>03. What is an event loop in JavaScript?</p>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Event loop is the secret behind asynchronous programming in JavaScript. It can process callback queue and the call stack at same time.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <p>04. quizTimer </p>
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>quizTimer</strong> handler use for set a time limit on questions and answers during the quiz running. 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <p>05. chooseQuiz</p>
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>chooseQuiz</strong> is used for select your quiz answers. It is helps for display results on your given answer.
+                  </div>
+                </div>
+              </div>
+          </div>
+    
+    
+    </section>
 
 
 
